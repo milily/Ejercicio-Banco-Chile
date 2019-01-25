@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { DummyDataService } from '../../services/dummy-data.service';
 import { DummyData } from '../../interfaces/dummy-data.interface';
 
@@ -10,13 +10,14 @@ import { DummyData } from '../../interfaces/dummy-data.interface';
 
 export class BcTableComponent implements OnInit {
 
-  dataService: DummyData[];
+  @Input() dataService: DummyData[];
 
   constructor(
     public _dataService: DummyDataService,
   ) { }
 
   ngOnInit() {
+    this._dataService.getUserData().subscribe(data => this.dataService = data );
   }
 }
 

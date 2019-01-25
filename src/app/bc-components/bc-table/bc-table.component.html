@@ -1,29 +1,22 @@
 <table class="table table-bordered">
     <thead>
       <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th></th>
+        <th>Transacción</th>
+        <th>Rut</th>
+        <th>Nombre</th>
+        <th>Banco</th>
+        <th>Monto</th>
       </tr>
     </thead>
     <tbody >
       <tr *ngFor="let data of dataService">
-        <th scope="row">1</th>
-        <td>{{data.data.fullName}}</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
+        <td><input type="checkbox"/></td>
+        <td>{{data.transactionNumber}}</td>
+        <td>{{data.rut}}</td>
+        <td>{{data.fullName}}</td>
+        <td>{{data.bank}}</td>
+        <td>{{data.amount}}</td>
       </tr>
     </tbody>
   </table>
