@@ -1,4 +1,14 @@
-.card-content:before{
-  content: "-";
+:host{
+  .bc{
+    &-card{
+      &__text:before{
+        content: "-";
+      }
+      &__amount{
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+  } 
 }
-
