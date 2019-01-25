@@ -2,13 +2,17 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
-/** Módulos UI  */
+/** View components  */
 import { BcHeaderComponent } from './bc-header/bc-header.component';
 import { BcTableComponent } from './bc-table/bc-table.component';
 import { BcCardComponent } from './bc.card/bc-card.component';
+import { BcCollapseComponent } from './bc-collaspse/bc-collapse.component';
+
+/** Services */
 import { DummyDataService } from './../services/dummy-data.service';
-import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
     imports: [
@@ -20,12 +24,14 @@ import { HttpClientModule } from '@angular/common/http';
     declarations: [
       BcHeaderComponent,
       BcTableComponent,
-      BcCardComponent
+      BcCardComponent,
+      BcCollapseComponent
     ],
     exports: [
       BcHeaderComponent,
       BcTableComponent,
-      BcCardComponent
+      BcCardComponent,
+      BcCollapseComponent
     ],
     providers: [
       DummyDataService
