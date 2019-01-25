@@ -8,11 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BcCollapseComponent implements OnInit {
 
-  isTogglerOpen = true;
+  // hides the content when init
+  isTogglerOpen = false;
 
   ngOnInit() {
   }
 
+  /** method that shows/hides the content in the template */
   showToggler() {
     this.isTogglerOpen = !this.isTogglerOpen;
   }

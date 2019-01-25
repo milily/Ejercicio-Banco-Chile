@@ -5,6 +5,7 @@
         content: "-";
       }
       &__amount{
+
         @media (max-width: 767px) {
           display: none;
         }

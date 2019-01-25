@@ -1,5 +1,7 @@
+<!-- Table for the last part of the view -->
 <div class="container-fluid mt-5">
   <table id="dtBasicExample" class="table table-bordered">
+    <!-- Header -->
     <thead>
       <tr>
         <th></th>
@@ -10,6 +12,8 @@
         <th>Monto</th>
       </tr>
     </thead>
+
+    <!-- Body with dynamic data -->
     <tbody>
       <tr *ngFor="let data of dataService">
         <td><input type="checkbox"/></td>
@@ -21,6 +25,8 @@
       </tr>
     </tbody>
   </table>
+
+  <!-- Pagination -->
   <nav aria-label="Page navigation example">
     <ul class="pagination justify-content-center">
       <li class="page-item">

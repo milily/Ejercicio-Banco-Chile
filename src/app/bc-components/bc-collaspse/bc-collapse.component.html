@@ -1,5 +1,7 @@
+<!-- Collapsable for the second part of the view -->
 <div class="accordion container-fluid mt-5" id="accordionExample">
   <div class="card">
+    <!-- Header with title and a button-->
     <div class="card-header" id="headingOne">
       <div class="row justify-content-between">
         <div class="col-11 mt-3">
@@ -16,6 +18,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Content Hidden/shown depending on the event inside the header -->
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" 
     [ngClass]="{ 'show': isTogglerOpen }" data-parent="#accordionExample">
       <div class="card-body">
