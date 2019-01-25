@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { BcUIModule } from './bc-ui/bc-iu.module';
+import { BcComponentsModule } from './bc-components/bc-components.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { BcUIModule } from './bc-ui/bc-iu.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BcUIModule
+    BcComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

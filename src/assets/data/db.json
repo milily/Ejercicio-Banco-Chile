@@ -6,7 +6,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 100000
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 200000
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 300000
           },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 300000
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 90000
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 5000
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 100000
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 70000
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 10000000
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "fullName": "Juan Pérez Loza",
             "rut": 229205384,
             "bank": "Banco de Chile",
-            "amount": "100000"
+            "amount": 100000
         }
     ]
 }
