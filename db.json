@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 2,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 3,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+          },
+        {
+            "id": 4,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 5,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 6,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 7,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 8,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 9,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        },
+        {
+            "id": 10,
+            "transactionNumber": 998789767657656546,
+            "fullName": "Juan Pérez Loza",
+            "rut": 229205384,
+            "bank": "Banco de Chile",
+            "amount": "100000"
+        }
+    ]
+}
