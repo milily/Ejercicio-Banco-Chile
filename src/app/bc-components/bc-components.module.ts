@@ -6,7 +6,8 @@ import { RouterModule } from '@angular/router';
 /** Módulos UI  */
 import { BcHeaderComponent } from './bc-header/bc-header.component';
 import { BcTableComponent } from './bc-table/bc-table.component';
-import { DummyDataService } from '../services/dummy-data.service';
+import { BcCardComponent } from './bc.card/bc-card.component';
+import { DummyDataService } from './../services/dummy-data.service';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -18,11 +19,13 @@ import { HttpClientModule } from '@angular/common/http';
     ],
     declarations: [
       BcHeaderComponent,
-      BcTableComponent
+      BcTableComponent,
+      BcCardComponent
     ],
     exports: [
       BcHeaderComponent,
-      BcTableComponent
+      BcTableComponent,
+      BcCardComponent
     ],
     providers: [
       DummyDataService
